@@ -15,8 +15,8 @@ contract StarNotary is ERC721 {
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
     
-    string public name = "Stellazza";
-    string public symbol = "STZ";
+    string public constant name = "Stellazza";
+    string public constant symbol = "STZ";
 
     // mapping the Star with the Owner Address
     mapping(uint256 => Star) public tokenIdToStarInfo;
